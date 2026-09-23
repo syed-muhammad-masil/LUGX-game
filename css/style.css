@@ -11,7 +11,7 @@ body {
 
 .hero {
     height: 650px;
-    background: #087df5;
+    background: rgb(8, 125, 245);
     color: white;
 }
 
@@ -39,6 +39,8 @@ nav a {
     text-decoration: none;
     padding: 12px 15px;
     font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 
 .signin {
@@ -123,4 +125,19 @@ nav a {
     justify-content: center;
     margin-left: -25px;
     margin-top: -40px;
+}
+nav a:hover {
+    background: #ee5962;
+    transition: 0.5s;
+    color: black;
+}
+.signin:hover {
+    background: #90c7ff;
+    transition: 0.5s;
+    color: black;
+}
+.search button:hover {
+    background: #7780a1;
+    transition: 0.5s;
+    color: black;
 }
